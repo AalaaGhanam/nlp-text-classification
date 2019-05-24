@@ -38,4 +38,4 @@ clf.fit(training_data, y_train)
 clf.feature_importances_
 pred = clf.predict(testing_data)
 print("Accuracy score:",accuracy_score(y_test, pred))
-#########svm#######################
+#########svm######################
